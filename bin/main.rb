@@ -1,4 +1,4 @@
-require '../lib/lista'
+require_relative '../lib/lista'
 
 libro = Pract7::Libro.new("Dave Thomas, Andy Hunt, Chad Fowler",
 								  "Programming Ruby 1.9 & 2.0: The Pragmatic Programmers’ Guide. (The Facets of Ruby)",
@@ -18,7 +18,7 @@ libro3 = Pract7::Libro.new("asf sdfsdf",
 lista = List.new(libro)
 lista.push(libro2)
 lista.push(libro3)
-
 puts lista.show
+
 lista.pop
 puts lista.show
