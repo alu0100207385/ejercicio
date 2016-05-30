@@ -3,6 +3,7 @@ require_relative 'node'
 
 
 class List < Node
+	attr_reader :head
 
 	include Pract7
 
